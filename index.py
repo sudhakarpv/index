@@ -1,6 +1,9 @@
-n=int(input())
-l=[]
-for i in range (n):
-    l.append(input())
-for k in l:
-    print(k,l.index(k),sep=" ")
+def main():
+    pass
+    n=input().split()
+    l=list(n)
+    for k in l:
+        print(k,l.index(k),sep=" ")
+
+if __name__ == '__main__':
+    main()
